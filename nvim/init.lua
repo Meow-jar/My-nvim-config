@@ -1,5 +1,6 @@
 require("config.lazy")
 
+vim.opt.number = true
 -- Переопределение навигации на jkl;
 vim.keymap.set('n', 'j', 'h', { noremap = true })
 vim.keymap.set('n', 'k', 'j', { noremap = true })
